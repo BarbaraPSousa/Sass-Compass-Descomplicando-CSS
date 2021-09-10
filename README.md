@@ -1,2 +1,2 @@
-# Sass-Compass-Descomplicando-CSS
+# Sass e Compass: Descomplicando CSS
 Repositório dedicado a Aula de SASS e Compass da Plataforma Alura 
