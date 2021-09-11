@@ -57,6 +57,18 @@ header .container {
     }
   }
 
+  @media #{$mq-mobile} {
+    position: static;
+    display: block;
+    text-align: center;
+      form {
+        width: auto;
+      }
+      li form {
+        width: auto;
+      }
+  }
+
   .menu-opcoes {
     position: static;
     display: block;
@@ -67,17 +79,7 @@ header .container {
     margin: 0.4em;
   }
 
-  @media #{$mq-mobile} {
-    .menu-opcoes {
-      position: static;
-      display: block;
-      text-align: center;
-      width: auto;
-    }
-
     .menu-opcoes li {
       margin: 0.4em;
-      width: auto;
     }
   }
-}
