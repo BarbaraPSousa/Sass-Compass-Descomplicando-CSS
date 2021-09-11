@@ -5,10 +5,29 @@ header {
   height: 90px;
   width: 100%;
   position: absolute;
-}
+
+  @media #{$mq-mobile} {
+    height: auto;
+
+    h1 {
+      max-width: 50%;
+      margin: 0 auto;
+
+      img {
+        max-width: 100%;
+        margin: 0.5em auto;
+        display: block;
+      } // fim do img
+    } //fim h1
+  } //fim media query
+} //fim do header
 
 header .container {
   position: relative;
+
+  @media #{$mq-mobile} {
+    position: static;
+  }
 }
 
 .menu-principal {
@@ -35,6 +54,30 @@ header .container {
     &:hover {
       //& indica que e filho do a
       text-decoration: underline;
+    }
+  }
+
+  .menu-opcoes {
+    position: static;
+    display: block;
+    text-align: center;
+  }
+
+  .menu-opcoes li {
+    margin: 0.4em;
+  }
+
+  @media #{$mq-mobile} {
+    .menu-opcoes {
+      position: static;
+      display: block;
+      text-align: center;
+      width: auto;
+    }
+
+    .menu-opcoes li {
+      margin: 0.4em;
+      width: auto;
     }
   }
 }
