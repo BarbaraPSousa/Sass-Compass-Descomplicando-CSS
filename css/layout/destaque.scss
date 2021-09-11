@@ -7,7 +7,8 @@
   height: 330px;
   padding-top: 10em;
 
-  @media #{$mq-mobile} {//mobile
+  @media #{$mq-mobile} {
+    //mobile
     font-size: 14px;
     height: 250px;
   }
@@ -34,7 +35,7 @@
   border: 0;
   padding: 0.6em;
   font-size: 1.2em;
-  @include borda-arredondada(50px);
-  @extend %sombra-padrao;
+  @include border-radius(50px);
+  @include box-shadow(black 2px 2px 5px);
   font-weight: bold;
 }
