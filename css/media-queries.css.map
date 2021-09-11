@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,MAAM,EAAE,SAAS,EAAE,KAAK;EAEtB,AAAA,IAAI,CAAC;IACL,KAAK,EAAE,IAAI;GACX",
-    "sources": [
-        "media-queries.scss"
-    ],
-    "names": [],
-    "file": "media-queries.css"
-}

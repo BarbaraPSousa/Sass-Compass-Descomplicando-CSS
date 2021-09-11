@@ -45,6 +45,11 @@ header .container {
   li {
     display: inline-block;
     width: 5em;
+
+    @media #{$mq-mobile} {
+      margin: 0.4em;
+      width: auto;
+    }
   }
 
   a {
@@ -61,25 +66,6 @@ header .container {
     position: static;
     display: block;
     text-align: center;
-      form {
-        width: auto;
-      }
-      li form {
-        width: auto;
-      }
+    width: auto;
   }
-
-  .menu-opcoes {
-    position: static;
-    display: block;
-    text-align: center;
-  }
-
-  .menu-opcoes li {
-    margin: 0.4em;
-  }
-
-    .menu-opcoes li {
-      margin: 0.4em;
-    }
-  }
+}
